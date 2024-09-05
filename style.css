@@ -100,11 +100,21 @@ p {
   color: white;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
 }
 
 #educacion ul {
   font-size: 1.25em;
   list-style: none;
+}
+
+#experiencia {
+  display: column;
+  align-items: center;
+}
+
+#experiencia p {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #proyectos {
